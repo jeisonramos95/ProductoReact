@@ -50,7 +50,7 @@ function ModalProduct(props: any) {
 
     return (
         <Modal isOpen={props.modal} toggle={props.toggle}>
-            <ModalHeader toggle={props.toggle}>Modal title</ModalHeader>
+            <ModalHeader toggle={props.toggle}>Product</ModalHeader>
             <ModalBody>
                 <form>
                     <div className="form-group">

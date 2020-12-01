@@ -32,7 +32,7 @@ function ModalRegister(props: any) {
     }
     return (
         <Modal isOpen={props.modal} toggle={props.toggle}>
-            <ModalHeader toggle={props.toggle}>Modal title</ModalHeader>
+            <ModalHeader toggle={props.toggle}>User Create</ModalHeader>
             <ModalBody>
                 <form>
 
@@ -58,7 +58,7 @@ function ModalRegister(props: any) {
                             type="email" className="form-control" id="emailInput" placeholder="Enter email" />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="passwordInput">Stock</label>
+                        <label htmlFor="passwordInput">Password</label>
                         <input onChange={(event) => setPassword(event.target.value)} value={password}
                             type="password" className="form-control" id="passwordInput" placeholder="Enter password" />
                     </div>

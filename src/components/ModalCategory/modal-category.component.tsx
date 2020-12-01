@@ -43,7 +43,7 @@ function ModalCategory(props: any) {
 
     return (
         <Modal isOpen={props.modal} toggle={props.toggle}>
-            <ModalHeader toggle={props.toggle}>Modal title</ModalHeader>
+            <ModalHeader toggle={props.toggle}>Category </ModalHeader>
             <ModalBody>
                 <form>
                     <div className="form-group">
